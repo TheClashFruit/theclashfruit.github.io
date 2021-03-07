@@ -32,5 +32,27 @@
 
     <!-- Scripts -->
     <script src="./js/main.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-remote-config.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-firestore.js"></script>
+
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyAwRxil3Qvfoq4iTKDIusQhfOQMds16ofM",
+        authDomain: "theclashfruitsite.firebaseapp.com",
+        projectId: "theclashfruitsite",
+        storageBucket: "theclashfruitsite.appspot.com",
+        messagingSenderId: "636972458996",
+        appId: "1:636972458996:web:1eb67480c578870bfe0fa1",
+        measurementId: "G-11HD6M4159"
+      };
+
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
